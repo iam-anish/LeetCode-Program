@@ -9,7 +9,7 @@ class Solution {
                 Lp++;
             }
             else{
-                Rp--;
+                Rp-- ;
             }
         }
         return max;
