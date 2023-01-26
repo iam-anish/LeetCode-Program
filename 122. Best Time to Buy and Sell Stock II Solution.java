@@ -5,6 +5,7 @@ class Solution {
             int dif = prices[i] - prices[i-1];
             if(dif > 0) ans += dif;
         }
+        
         return ans;
     }
 }
