@@ -14,7 +14,7 @@
  * }
  */
 class Solution{
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(TreeNode p, TreeNode q){
          List<Integer> list=new ArrayList<Integer>();
          List<Integer> list2=new ArrayList<Integer>();
          postOrder(p,list);
